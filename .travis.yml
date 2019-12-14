@@ -1,4 +1,7 @@
 language: c
-os: linux
+r:
+  - oldrel
+  - release
+  - develos: linux
 compiler: gcc
 script: make
