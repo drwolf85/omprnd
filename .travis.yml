@@ -1,7 +1,6 @@
 language: c
-r:
-  - oldrel
-  - release
-  - develos: linux
+before_install:
+  - sudo apt-get -y install r-base
+develos: linux
 compiler: gcc
 script: make
